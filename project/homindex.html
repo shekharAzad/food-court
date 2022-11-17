@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script defer src="script.js"></script>
+
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h2>Demo</h2>
+    </div>
+    <section>
+      <div class="nav">
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="../veg/index.html"><li>Veg</li></a>
+          <a href="#"><li>Non-Veg</li></a>
+          <a href="#"><li>Help!</li></a>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="items">
+      <div class="item">
+        <img src="gallery/img-1.jpg" />
+        <h4 class="h4">Mix-veg
+         &#8377  <span>56</span>&nbsp;(20-30% off)</h4>
+     
+        <!-- <a href="../payment/payment gateway/index.html">Order</a> -->
+        <button  onClick="orderfn(34,'mix-verg')">Order</button>
+        <!-- <a href="#">Order</a> -->
+      </div>
+      <div class="item">
+        <img src="gallery/img-2..jpg" />
+        <h4>Cake &#8377 <span>299</span> &nbsp; (30% off)</h4>
+        <!-- <a href="../payment/payment gateway/index.html">Order</a>  -->
+
+        <button  onClick="orderfn(299,'Cake')">Order</button>
+      </div>
+
+      <div class="item">
+        <img src="gallery/img-3.jpg.jpg" />
+        <h4>Tea &#8377 <span> 20&nbsp; (5% off)</h4>
+        <!-- <a href="../payment gateway/payment gateway/index.html">Order</a> -->
+        <button onClick="orderfn(20,'Tea')">Order</button>
+      </div>
+
+      <div class="item">
+        <img src="gallery/img-4.jpg.jpg" />
+        <h4>Milk &#8377 49 &nbsp; (15% off)</h4>
+        <!-- <a href="../payment gateway/payment gateway/index.html">Order</a> -->
+        <button onClick = "orderfn(49,'Milk')">Order</button>
+      </div>
+
+      <div class="item">
+        <img src="gallery/img-5.jpg.jpg" />
+        <h4>Dry-Fruit (&#8377 149) <span> &nbsp; 25-32% off</span></h4>
+        <!-- <a href="../payment gateway/payment gateway/index.html">Order</a>
+       -->
+      <button onClick ="orderfn(149,'Dry-Fruits')">Order</button>
+    </div>
+
+      <div class="item">
+        <img src="gallery/img-6.jpg.jpg" />
+        <h4>Fruit (&#8377 99) <span> &nbsp; 33% off</span></h4>
+        <!-- <a href="../payment gateway/payment gateway/index.html">Order</a> -->
+        <button onClick="orderfn(99,'Fruits')">Order</button>
+      </div>
+    </section>
+
+    <!-- Foooter -->
+    <footer class="footer">
+      <div class="grid--footer">
+        <div class="logo-col">
+          <!-- <a href="#" class="footer-logo">
+          </a> -->
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 by Indianfood, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">Rage communication,Santhome Chennai</p>
+            <p>
+              <a class="footer-link" href="tel:8434200">8434200 </a><br />
+              <a class="footer-link" href="azad@.com">Demofood.com</a>
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Demofood</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

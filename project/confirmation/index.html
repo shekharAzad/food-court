@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../payment/payment gateway/css/style.css" />
+    <script defer src="../script.js"></script>
+  </head>
+  <body onload="initialSetupFnCall()">
+    <section>
+      <div class="heading">
+        <h2>Please Confirm</h2>
+      </div>
+
+      <div class="inputBox">
+        <!-- <span>Name :</span> -->
+        <label>Name:-</label>
+        <label id="username"></label>
+      </div>
+
+      <div class="inputBox">
+        <!-- <span>Address:</span> -->
+        <label>Address:-</label>
+        <label id="useraddress"></label>
+      </div>
+
+      <h2>Product Detail</h2>
+      
+      </div>
+
+      <div class="inputBox">
+        
+      </div>
+
+      <div class="inputBox">
+        <span>Price :</span>
+        <input type="text" placeholder="price" />
+      </div>
+
+      <button
+        type="button"
+        onsubmit="handlePaymentProceedBtn(event)"
+        class="btn"
+      >
+        Submit
+      </button>
+    </section>
+  </body>
+</html>
